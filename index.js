@@ -18,4 +18,13 @@ function johnLennonFacts(facts) {
   }
   return shoutedFacts
 }
-function iLoveTheBeatles() {
+function iLoveTheBeatles(n) {
+  const arr = []
+  
+  do {
+    arr.push('I love the Beatles!')
+    n++
+  }
+  while (n < 7)
+  return arr
+}
